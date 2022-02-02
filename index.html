@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="page">
+      <section id="left-part">
+        <div id="title-wrap">
+          <img id="emblem" src="images/odin-lined.png" alt="The Odin Project Emblem" />
+          <div id="title">ODIN</div>
+        </div>
+        <div id="photo-caption">
+          <div>
+            Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+            <a href="https://unsplash.com/">Unsplash</a>
+          </div>
+        </div>
+      </section>
+      <section id="right-part">
+        <div id="intro">
+          <p class="bold">
+            This is not a real online service. You know you need something like this to help you realize your
+            deepest dreams. Sign up <em>now</em> to get started!<br /><br />You <em>know</em> you want to!
+          </p>
+        </div>
+        <div id="form">
+          <p class="bold">Let's do this</p>
+          <form action="#" method="post">
+            <div>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+            <div>
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name" />
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="text" id="phone-number" name="phone-number" />
+            </div>
+            <div>
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" name="confirm-password" />
+            </div>
+            <p id="error">*passwords don't match</p>
+          </form>
+        </div>
+        <div id="create-acc">
+          <button>Create Account</button>
+          <p>Already have an account? <span>Log in</span></p>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
